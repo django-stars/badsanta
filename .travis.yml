@@ -5,5 +5,5 @@ python:
 install:
   - pip install -r ./requirements/requirements-test.txt --use-mirrors --quiet
 script:
-  - cd src && python manage.py test --settings={{ project_name }}.settings_test
+  - cd src && python manage.py test --settings=badsanta.settings_test
 
